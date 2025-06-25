@@ -1,0 +1,80 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+
+	background: url(header.jpg) no-repeat center center fixed; 
+
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+h1 {
+	font-size: 3rem;
+	color: #e2dbdb;
+	
+	/* text-transform: uppercase;   /* или она класа у Бутстрап-у.*/ */
+	
+}
+
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+.btn-primary {
+	background-color: #F05F44;
+	border-color: #F05F44;
+}
+
+/*  Ovu KLASU smo mi dodali! :)  */
+
+.btn-xl { 
+	padding: 1rem 2rem;	
+}
+
+.btn-primary:hover {
+	border-width: 4px;
+	border-color: #ee4b08;
+	background-color: #ee4b08;
+}
+
+hr {
+	border-color: #F05F44;
+	border-width: 3px;
+	max-width: 65px;
+	margin: 16px auto;   /*  Bez ovoga ne centrira liniju iznad dugmenta!? Centrira ako je verzija 4.3.1, ako je 5... ne centrira bez ove komande!  */	
+}
+
+.buffer {
+	height: 10rem;
+}
+
+
+
+/* 
+.VelikaSlova {
+	text-transform: uppercase;
+} 
+
+Poziv ove klase u HTML-u:   <h1 class="VelikaSlova">
+
+*/
+
+
+/* 
+<img src="header.jpg" alt="Ne prikazuje sliku!">
+*/
+
+
+/*
+<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/86121f1591509fd0ce4d710ac/0cfedd88d2aba9fadd2178edf.js");</script>
+*/
+
+/*
+www.sajt.com
+*/
